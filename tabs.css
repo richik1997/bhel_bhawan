@@ -1,0 +1,42 @@
+/* Design Comments */
+.tabs_display { width: 100%; height: 250px; }
+
+.tab_enc_left { width: 50%; float: left; display: inline; background: #FEFEFE; }
+.tab_enc_right { width: 50%; float: right; display: inline; background: #FEFEFE; }
+.tab_area { overflow: hidden; background: #CCECFF; 
+	border-top: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+
+.tab_links_l, .tab_links_r {
+    background: #B3E3FF;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 5px;
+    transition: 0.3s;
+	font-family: Georgia, Serif;
+    font-size: 14px; 
+	height: 30px;
+	border-radius: 6px 6px 0px 0px;
+	border-top: 1px solid #80D0FF;
+	border-left: 1px solid #80D0FF;
+	border-right: 1px solid #80D0FF;
+}
+
+.tab_links_l:hover, .tab_links_r:hover  { background: #80D0FF; }
+.tab_links_l.active, .tab_links_r.active { background: #FFF; }
+.tab_content_l, .tab_content_r { 
+	display: none; 
+	padding: 6px 12px; 
+	border-top: none; 
+	overflow-y: scroll;
+	height: 210px; 
+	font-family: "Lucida Bright", Serif;
+	font-size: 14px; 
+	color: #010101;	
+	border: 1px solid #FFFFFF;
+}
+
