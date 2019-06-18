@@ -1,7 +1,6 @@
-/* Design Comments */
-/* 200 = C8 ; 250 = FA; 100 = 64;*/
 
-body { background: #FEFEFE; margin: 0; min-width: 1010px; /*font-family: "Lucida Bright", Serif;*/ }
+
+body { background: #FEFEFE; margin: 0; min-width: 1010px; 
 a { text-decoration: none; color: #010101; cursor: pointer; }
 a:visited { color: #010101; }
 a:hover { color: #2121BC; }
