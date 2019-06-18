@@ -7,10 +7,10 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>
-BHEL - INTRANET
+EMPLOYEE DATA BASE
 </title>
 
-<link rel="stylesheet" href="mainlayout.css">
+<link rel="stylesheet" href="mainlayout_new.css">
 
 <script type="text/javascript">
 	function myFunction() {
@@ -65,7 +65,7 @@ Bharat Heavy Electricals Limited
 </span>
 <br>
 <span class="banner_name_region txx" >
-<center><a href="index.html" style="padding-right: 4px;color: #ff0000;">Home</a>|<a href="#" style="padding-left: 4px;padding-right: 4px;color: #ff0000;">Report</a>|<a href="#" style="padding-left: 4px; color: #ff0000;">Add agenda</a></a></center>
+<center>Power Sector Eastern Region Intranet</center>
 </span>
 </div>
 
@@ -87,22 +87,25 @@ Logout
 </div></div>
 <center>
 	
-	<form action="/action_page.php">
-	<select name="date_selector" style="width:150px; padding-left: 30px; background-color:#0be9ed; border: 2px solid #30aae8; border-radius: 5px; height:30px">
+	<button type="button" style="width:150px; padding-left: 30px; background-color:#0be9ed; border-radius:5px; height: 30px; margin: 3px ">Report</button>
+	<button type="button" style="width:150px; padding-left: 30px; background-color:#0be9ed; border-radius:5px; height: 30px; margin: 3px ">Add agenda</button>
+
+	<select name="date_selector" style="width:150px; padding-left: 30px; background-color:#0be9ed; border-radius: 5px; height:30px">
   	<option value="me">Select available dates</option>
   	<option value="d1">12/12/2019</option>
   	<option value="d2">01/01/2018</option>
   	<option value="d3">05/04/2018</option>
 	</select>
-	<input type="submit" value="Submit" style="width:150px; padding-left: 30px; background-color:#0be9ed; border: 2px solid #30aae8; border-radius: 5px;height: 30px; margin: 3px ">
-	</form>
+	<input type="submit" value="Submit" style="width:150px; padding-left: 30px; background-color:#0be9ed; border-radius:5px; height: 30px; margin: 3px ">
+	
 	
 </center>
 <!-- MAIN MENU !-->
 <div class="main_menu_bar">
-<center>
+
 <div class="main_menu_top">
 
+Topics
 <div class="main_menu_l1">
 <a href="#" class="txt" >1</a>
 <div class="main_menu_l2">
@@ -142,7 +145,7 @@ Logout
 
 
 </div>
-</center>
+
 </div>
 <br>
 <br>
@@ -170,8 +173,8 @@ Logout
   </script></td>
 		<td><input type="Date" name="creation_date"></td>
 		<td>
-			<table>
-				<tr><td>BH123456</td><td><button type="button">cancel</button></tr>
+			<table style="border-collapse: collapse;">
+				<tr><td>BH123456</td><td><button type="button" style="background-color: red;color: white;">X</button></tr>
 				<tr><div class="dropdown">
 					<center><button onclick="myFunction()" class="dropbtn">Emp List</button></center>
   					<div id="myDropdown" class="dropdown-content">
@@ -198,7 +201,7 @@ Logout
 	</tr>
 </table>
 <!-- for general employees -->
-<table width="100%" class="mytable" style="display: none;">
+<table width="100%" class="mytable" >
 	<col width="30%">
 	<col width="10%">
 	<col width="10%">
@@ -243,7 +246,7 @@ Logout
 	</tr>
 </table>
 <!-- for responsible employee -->
-<table width="100%" class="mytable" style="display: none;">
+<table width="100%" class="mytable" >
 	<col width="30%">
 	<col width="10%">
 	<col width="10%">
@@ -276,7 +279,7 @@ Logout
     				<tr>BH121216</tr>
   					
 				
-				<br>
+				
 			</table>
 		</td>
 		<td><input type="date"></td>
@@ -289,9 +292,9 @@ Logout
 </table>
 </center>
 <br>
-<center><button type="button" style="background-color: #0be9ed; border: 3px solid #30aae8; border-radius: 5px; height: 25px;width: 100px;">Save</button></center>
-<div class="foot">
-	<hr style="height:3px;border:none;color:#0be9ed;background-color:#0be9ed;" />
+<center><button type="button" style="background-color: #0be9ed;  border-radius: 5px; height: 25px;width: 100px;">Save</button></center>
+
+	
 
 
 <div class="footer txx">
@@ -330,7 +333,7 @@ No. of Hits since 11/09/2018 : 209520</div>
 <div class="copyright txx" >
 &nbsp;Copyright © 2019 BHEL PSER
 </div>
-</div>
+
 
 
 
