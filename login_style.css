@@ -1,0 +1,148 @@
+/* Design Comments */
+/* 200 = C8 ; 250 = FA; 100 = 64;*/
+
+body { background: #FEFEFE; margin: 0; min-width: 1010px; /*font-family: "Lucida Bright", Serif;*/ }
+a { text-decoration: none; color: #010101; cursor: pointer; }
+a:visited { color: #010101; }
+a:hover { color: #2121BC; }
+br { line-height: 100%; }
+table, th, td { border: 1px solid black; }
+ul { margin: 0 0 0 1em; padding: 0; text-align: justify;}
+img {border: none;}
+.foot{
+  background: #0be9ed; 
+
+   background: linear-gradient(rgba(255,255,255,1),rgba(11, 233, 237,1),rgba(255,255,255,1));
+	position: fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	text-align: center;
+
+}
+
+.no_link { cursor: default; }
+.banner { 
+	margin: 0;	
+	height: 59px; 
+	background: #0be9ed;
+	
+}
+
+.banner_logo { width: 21%; float: left; display: inline; height: 50px;}
+.banner_name { width: 57%; float: left; display: inline; text-align: center; }
+.banner_name_company { font-family: Georgia, Serif; color: #010101; font-size: 24px; text-shadow: 1px 1px #707070;}
+.banner_name_region { font-family: Georgia, Serif; color: #010101; font-size: 22px;}
+.banner_edge { width: 21%; float: right; display: inline; text-align: right;}
+
+.banner_edge_link { font-family: Georgia, Serif; color: #101010; font-size: 14px; }
+.banner_edge_mail { font-family: Georgia, Serif; color: #1010E0; font-size: 14px; padding: 4px;
+	background: #0be9ed;
+	}
+
+.footer {
+/*    bottom: 0;*/
+/*    position: fixed;*/
+	
+    
+    height: 16px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Lucida Bright", Serif;
+	
+    color: #004A80;
+}
+.multiselect {
+  width: 200px;
+}
+
+.selectBox {
+  position: relative;
+}
+/* Dropdown Button */
+
+/* Dropdown button on hover & focus */
+/*.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+*/
+/* The search field */
+
+/* The search field when it gets focus/clicked on */
+
+/* Dropdown Content (Hidden by Default) */
+
+
+/* Change color of dropdown links on hover */
+
+
+
+
+
+
+.copyright {
+    left: 0;
+    width: 99%;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Lucida Bright", Serif;
+	
+    color: #004A80;
+}
+.btn
+{
+
+  
+  width:100px;
+  border-radius: 10px;
+  background-color: #04aeed;
+
+}
+
+.office_address {
+    width: 100%;
+    height: 18px;
+	overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Lucida Bright", Serif;
+	background: #FDFDFD;
+    color: #010101;
+}
+.myform
+{
+  
+}
+.loginbox
+{ padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  width: 50%;
+  border-radius: 10px;
+  border-color:blue;
+  background: #0be9ed; 
+
+   background: linear-gradient(rgba(255,255,255,1),rgba(11, 233, 237,1),rgba(255,255,255,1));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
